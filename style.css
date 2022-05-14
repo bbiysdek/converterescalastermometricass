@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman';
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    height: 90vh;
+    background-image: linear-gradient(to bottom, #000000 , #990000);
+}
+h1,h4{
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+#termometro{
+    position: absolute;
+    margin-top: -10em;
+}
+#escala{
+    position: absolute;
+    margin: 10em;
+}
+table{
+    border: 5px outset rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.inputs {
+    border: 10px outset rgb(151, 1, 1);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.input {
+    flex: 1 1 40%;
+    margin: 15px;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 15px;
+    transition: 0.4s;
+}
